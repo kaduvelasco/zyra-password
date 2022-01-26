@@ -1,0 +1,8 @@
+/.idea
+./git
+/coverage
+/vendor
+/build
+/composer.lock
+/.phpunit.result.cache
+/.htaccess

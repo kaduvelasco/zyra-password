@@ -1,0 +1,25 @@
+{
+  "name":        "kaduvelasco/zyra-password",
+  "version":     "1.0.0",
+  "type":        "library",
+  "description": "Classe PHP para auxiliar a utilização de password em PHP.",
+  "keywords":    ["php","senha", "password", "bcrypt", "argon2i", "argon2id"],
+  "homepage":    "https://github.com/kaduvelasco/zyra-password",
+  "license":     "MIT",
+  "authors": [
+    {
+      "name":  "Kadu Velasco",
+      "email": "kadu.velasco@gmail.com",
+      "role":  "Developer"
+    }
+  ],
+  "require": {
+    "php":      ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zyra\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
